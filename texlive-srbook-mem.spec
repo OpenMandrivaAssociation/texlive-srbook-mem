@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-srbook-mem
-Version:	20111103
+Version:	20111104
 Release:	1
 Summary:	TeXLive srbook-mem package
 Group:		Publishing
@@ -48,6 +48,7 @@ TeXLive srbook-mem package.
 %doc %{_texmfdistdir}/doc/latex/srbook-mem/Test.tex
 %doc %{_texmfdistdir}/doc/latex/srbook-mem/TestLight.pdf
 %doc %{_texmfdistdir}/doc/latex/srbook-mem/TestLight.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +59,5 @@ TeXLive srbook-mem package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
