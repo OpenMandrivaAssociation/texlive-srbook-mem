@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-srbook-mem
-Version:	20171116
+Version:	20180303
 Release:	1
 Summary:	TeXLive srbook-mem package
 Group:		Publishing
