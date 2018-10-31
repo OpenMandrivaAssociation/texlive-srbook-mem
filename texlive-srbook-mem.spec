@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-srbook-mem
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	TeXLive srbook-mem package
 Group:		Publishing
 URL:		http://tug.org/texlive
