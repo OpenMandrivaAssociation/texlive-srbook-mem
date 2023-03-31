@@ -1,6 +1,6 @@
 Name:		texlive-srbook-mem
 Version:	45818
-Release:	1
+Release:	2
 Summary:	TeXLive srbook-mem package
 Group:		Publishing
 URL:		http://tug.org/texlive
