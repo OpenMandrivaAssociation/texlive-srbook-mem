@@ -3,7 +3,7 @@ Version:	45818
 Release:	2
 Summary:	TeXLive srbook-mem package
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/srbook-mem.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/srbook-mem.doc.r%{version}.tar.xz
